@@ -11,7 +11,7 @@ function App() {
         album='el mismo de arriba'
         imagen='AMomentaryLapseOfReason'
         puntuacion='10/10'
-        testimonio='nice esta repotente canciones destacadas segun mi opinion de Deidad primigenia: Sorrow , Yet Another Movie y Terminal Frost'/>
+        testimonio='nice esta repotente canciones destacadas segun mi opinion de Deidad primigenia: Sorrow , Yet Another Movie y Terminal Frost' />
 
         <Testimonio
         nombre='Pulse'
@@ -19,7 +19,7 @@ function App() {
         imagen='Pulse'
         puntuacion='9/10'
         testimonio='la cacion Time de este album man fua repotente pega en todo el carnet y en la vida misma de quien la escucha y la entiende por supuesto'
-        />
+         />
 
         <Testimonio
         nombre='The EndlessRiver'
@@ -27,7 +27,7 @@ function App() {
         imagen='theEndlessRiver'
         puntuacion='10/10'
         testimonio='Es literal The VIAJE es EL JOURNEY este album vuela y tu con él altamente recomendado'
-        />
+         />
 
       </div>
     </div>
