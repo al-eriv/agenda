@@ -2,19 +2,21 @@
 import './App.css';
 
 import Boton from './componentes/Boton';
-import contador from './componentes/Contador';
-
+import Contador from './componentes/Contador';
+  
 import PulseLogo from './img/Pulse.jpg';
-
+import {useState} from 'react';
 
 function App() {
 
+  const [numClicks, setNumClicks] = useState(0);
+
   const manejarClick = ()=>{
-    console.log('click');
+    setNumClicks(numClicks + 1);
   }
 
   const reiniciarContador = ()=> {
-    console.log('reset');
+    setNumClicks(0);
   }
 
   return (
@@ -29,8 +31,8 @@ function App() {
       </div>
       
       <div className='contenedor-contador'>
-        <contador
-          numClicks='5'
+        <Contador
+          numClicks={numClicks}
           />
 
         <Boton 
