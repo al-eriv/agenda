@@ -10,7 +10,7 @@ function App() {
   const [numeroClicksj1, setNumClicksj1] = useState(0);
   const [numeroClicksj2, setNumClicksj2] = useState(0);
 
-  const sumarUnoj1 = (metodo, conteo) => {
+  const sumarUnoj1 = () => {
     setNumClicksj1(numeroClicksj1 + 1);
     setNumClicks(numeroClicks - 1);
   }
