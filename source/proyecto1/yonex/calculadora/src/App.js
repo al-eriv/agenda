@@ -1,11 +1,12 @@
 import './App.css';
 import theEndlessRiverLogo from './img/theEndlessRiver.jpg';
+import yonexlogo from './img/Horinzontal-yonex.png';
 import Boton from './componentes/Boton';
 import Pantalla from './componentes/Pantalla';
 import './componentes/BotonCls';
 import BotonCls from './componentes/BotonCls';
 import { useState } from 'react';
-import {evaluate} from 'mathjs';
+import { evaluate } from 'mathjs';
 
 function App() {
 
