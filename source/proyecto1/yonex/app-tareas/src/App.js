@@ -1,6 +1,7 @@
 import './App.css';
 import YonexLogo from './img/Horizontal-yonex.png';
-import Tarea from './componentes/Tarea';
+import TareaForm from './componentes/TareaFormulario';
+import ListaTareas from './componentes/listaTareas';
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
       </div>
       <div className='tareas_lista_principal'>
         <h1>Mis tareas</h1>
-          <Tarea texto='tener ojos'
+          <ListaTareas
           />
       </div>
     </div>

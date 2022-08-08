@@ -19,4 +19,12 @@
     padding: 16px;
     font-size: 18px;
     font-family: Robot, sans-serif;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    outline: none;
+    background-color: darkgreen;
+    color: white;
+    text-transform: capitalize;
+    
 }
