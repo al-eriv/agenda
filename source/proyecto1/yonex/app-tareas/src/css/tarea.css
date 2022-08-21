@@ -12,6 +12,19 @@
     cursor: pointer;
 }
 
+.tarea_contenedor:nth-child(3n + 1){
+  background-color: darkgreen;
+
+}
+
+.tarea_contenedor:nth-child(3n + 2){
+  background-color: green;
+}
+
+.tarea_contenedor:nth-child(3n + 3){
+  background-color: lightgreen;
+}
+
 .tarea_contenedor.realizada{
   background-color: darkblue;
   text-decoration: line-through;

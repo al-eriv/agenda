@@ -1,6 +1,7 @@
-import { e } from "mathjs";
+import { e } from 'mathjs';
 import React, {useState} from "react";
 import '../css/tareaForm.css';
+import { v4 as uuidv4} from 'uuid';
 
 function TareaForm(props){
 
@@ -9,18 +10,23 @@ function TareaForm(props){
 
     const manejarCambio = e =>{
       setInput(e.target.value);
-      console.log(e.target.value);   
+        
     }
 
     const manejarEnvio = e =>{
+        e.preventDefault();
         const tareaNueva = {
-            id: '1',
-            texto: 'hey'
+            id: uuidv4(),
+            texto: input,
+            realizada: false
         }
+        props.onSubmit(tareaNueva);
     }
 
     return (
-        <form className='tarea_form'>
+        <form 
+         className='tarea_form' 
+         onSubmit={manejarEnvio}>
             <input 
               className='tarea_input'
               type='text'
