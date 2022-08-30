@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+html, body{
+  color: white;
+  background-color: black;
+  font-family: Lato, sans-serif;
+  margin-top: 40px;
+
+}
+.app{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.logo_contenedor{
+  width: 100%;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+}
+
+
+.logo{
+  width: 10%;
+  height: 50px;
+}
+h1{
+  color: black;
+  font-size: 25px;
+  font-family: Roboto, sans-serif;
+  text-align: center;
+  margin: 20px 0 ;
+  
+}
+
+/*lista de las tareas */
+.tareas_lista_principal{
+  width: 600px;
+  min-height: 500px;
+  background-color: gray;
+  padding: 25px;
+  margin: 10px;
+  justify-content: center;
+  border-radius: 26px;
+}
