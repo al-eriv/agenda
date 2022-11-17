@@ -19,6 +19,7 @@ function listaTarea(){
       const tareasActualizadas = tareas.filter(tarea => tarea.id !== id);
       setTareas(tareasActualizadas);
     }
+    /* comentario xd */
 
     const finalizarTarea = id =>{
       const  tareasActualizadas = tareas.map(tarea=>{
